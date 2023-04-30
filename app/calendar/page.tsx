@@ -21,10 +21,7 @@ export default function C() {
     return (
       
       
-          <Calendar
-          mode="single"
-          
-          className="rounded-md border" />
+          <Calendar />
        
     )
 }

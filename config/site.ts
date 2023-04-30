@@ -9,7 +9,7 @@ export const siteConfig = {
       github: "https://github.com/brcelso",
       docs: "https://ui.shadcn.com",
       instagram: "https://instagram.com/celsosilvabr",
-      vercel: "https://vercel.com/brcelso",
+      vercel: "https://celso.vercel.app",
       whatsapp: "https://wa.me/5511972509876"
     },
   }

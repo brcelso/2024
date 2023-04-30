@@ -80,7 +80,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Link
                 target="_blank"
                 rel="noreferrer"
-                href="/"
+                href={siteConfig.links.vercel}
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
                 <Icons.bone className="mr-2 h-3 w-3" />
@@ -88,8 +88,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
 
               <Link
-                target="_blank"
-                rel="noreferrer"
                 href="/links"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
@@ -97,8 +95,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
                 
               <Link
-                target="_blank"
-                rel="noreferrer"
                 href="/charts"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
@@ -106,8 +102,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
 
               <Link
-                target="_blank"
-                rel="noreferrer"
                 href="/calendar"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
@@ -115,7 +109,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
 
               <Link
-                
                 href="/about"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>

@@ -6,7 +6,7 @@ export const siteConfig = {
       "welcome to the New Age.",
     links: {
       twitter: "https://twitter.com/juca0514",
-      github: "https://github.com/brcelso/celso-template",
+      github: "https://github.com/brcelso",
       docs: "https://ui.shadcn.com",
       instagram: "https://instagram.com/celsosilvabr",
       vercel: "https://vercel.com/brcelso",

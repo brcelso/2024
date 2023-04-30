@@ -115,8 +115,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
 
               <Link
-                target="_blank"
-                rel="noreferrer"
+                
                 href="/about"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>

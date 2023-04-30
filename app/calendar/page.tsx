@@ -1,6 +1,7 @@
 "use client"
 
 import "@/styles/globals.css"
+import { TailwindIndicator } from "@/components/tailwind-indicator"
 import Image from "next/image"
 import Link from "next/link"
 

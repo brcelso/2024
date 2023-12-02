@@ -10,7 +10,9 @@ export const siteConfig = {
       docs: "https://ui.shadcn.com",
       instagram: "https://instagram.com/celsosilvabr",
       vercel: "https://celso.vercel.app",
-      whatsapp: "https://wa.me/5511972509876"
+      whatsapp: "https://wa.me/5511972509876",
+      ibovespa: "https://docs.google.com/spreadsheets/d/1vkqc4wkgaXAZrZs_kWy8P8tMX8GullMy6hdWoKOt0pU/gviz/tq?tqx=out:html&tq&gid=1653202204"
+
     },
   }
   

@@ -82,6 +82,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </div>
             </Link>
 
+            <Link
+                target="_blank"
+                rel="noreferrer"
+                href={siteConfig.links.vercel}
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "sm" }))}>
+                <Icons.bone className="mr-2 h-3 w-3" />
+                Home
+              </Link>
+
               <Link
                 href="/charts"
                 className={cn(
@@ -90,7 +100,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
 
               <Link
-                href="https://docs.google.com/spreadsheets/d/1vkqc4wkgaXAZrZs_kWy8P8tMX8GullMy6hdWoKOt0pU/gviz/tq?tqx=out:html&tq&gid=1653202204"
+                target="_blank"
+                rel="noreferrer"
+                href={siteConfig.links.ibovespa}
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
                 Ibovespa

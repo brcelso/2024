@@ -78,7 +78,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             </Link>
                 
               <Link
-                href="/home"
+                href="/"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
                 Home

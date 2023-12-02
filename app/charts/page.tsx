@@ -9,9 +9,6 @@ export default function IndexPage() {
           <h1 className="font-heading font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
             This is the New Age.
           </h1>
-          <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            The future is Coding.
-          </p>
       
           <TradingViewWidget />
           </div>

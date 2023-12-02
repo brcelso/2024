@@ -66,7 +66,7 @@ function TradingViewWidget() {
           "showMA": false,
           "hideDateRanges": false,
           "hideMarketStatus": false,
-          "hideSymbolLogo": false,
+          "hideSymbolLogo": true,
           "scalePosition": "right",
           "scaleMode": "Normal",
           "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",

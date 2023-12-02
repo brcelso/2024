@@ -114,6 +114,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   buttonVariants({ variant: "outline", size: "sm" }))}>
                 About
               </Link>
+
+              <Link
+                href="/links"
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "sm" }))}>
+                Links
+              </Link>
                   
                 </nav>
               </div>

@@ -34,9 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 
                 <Link
                 href="/"
-                className={cn(
-                  buttonVariants({ variant: "outline", size: "sm" }))}>
-              
+                >
                 <Avatar>
                 <AvatarImage  src={siteConfig.ogImage} />
                 <AvatarFallback>BR</AvatarFallback>

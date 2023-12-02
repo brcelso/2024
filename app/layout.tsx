@@ -78,6 +78,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
             </Link>
                 
               <Link
+                href="/home"
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "sm" }))}>
+                Home
+              </Link>
+
+              <Link
                 href="/charts"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>

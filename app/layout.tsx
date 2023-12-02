@@ -37,7 +37,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <AvatarFallback>BR</AvatarFallback>
                 </Avatar>
                 <ModeToggle />
-                <nav className="ml-auto text-sm font-medium space-x-4">
+                <nav className="ml-auto text-sm font-medium space-x-2">
                 
                 <Link
               href={siteConfig.links.github}
@@ -50,7 +50,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     size: "sm",
                     variant: "ghost",
                   }),
-                  "w-9 px-0"
+                  "w-7 px-0"
                 )}
               >
                 <Icons.gitHub className="h-4 w-4" />
@@ -72,7 +72,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   "w-9 px-0"
                 )}
               >
-                <Icons.twitter className="h-5 w-5 fill-current" />
+                <Icons.twitter className="h-4 w-4 fill-current" />
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>

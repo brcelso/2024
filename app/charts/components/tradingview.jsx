@@ -15,37 +15,49 @@ function TradingViewWidget() {
       script.innerHTML = `
         {
           "symbols": [
-            [
+              [
                 "Brazil",
                 "EWZ|All"
-            ],
-            [
+              ],
+              [
                 "Dow Jones",
                 "DJI|All"
-            ],
-            [
+              ],
+              [
+                "DJ Trp",
+                "DJT|All"
+              ],
+              [
                 "S&P500",
                 "SP500|All"
-            ],
-            [
+              ],
+              [
+                "Nasdaq",
+                "NDX|All"
+              ],
+              [
                 "Gold",
                 "GOLD|All"
-            ],
-            [
+              ],
+              [
                 "Bitcoin",
                 "BTCUSD|All|"
-            ],
-            [
+              ],
+              [
                 "Ethereum",
                 "ETHUSD|All|"
-            ],
-            [
+              ],
+              [
                 "Apple",
                 "AAPL|All"
-            ],
-            [
+              ],
+              [
                 "Microsoft",
                 "MSFT|All"
+              ],
+              [
+                "Tesla",
+                "TSLA|All"
               ],
               [
                 "Google",
@@ -54,6 +66,18 @@ function TradingViewWidget() {
               [
                 "Meta",
                 "META|All"
+              ],
+              [
+                "Disney",
+                "DIS|All"
+              ],
+              [
+                "UK Oil",
+                "UKOIL|All"
+              ],
+              [
+                "US Oil",
+                "USOIL|All"
               ]
           ],
           "chartOnly": false,

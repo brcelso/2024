@@ -32,10 +32,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <header>
               <div className="flex items-center justify-between">
                 
+                <Link
+                href="/"
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "sm" }))}>
+              
                 <Avatar>
                 <AvatarImage  src={siteConfig.ogImage} />
                 <AvatarFallback>BR</AvatarFallback>
                 </Avatar>
+                </Link>
+
                 <ModeToggle />
                 <nav className="ml-auto text-sm font-medium space-x-2">
                 

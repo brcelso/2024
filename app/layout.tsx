@@ -76,23 +76,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>
-
-            <Link
-                target="_blank"
-                rel="noreferrer"
-                href={siteConfig.links.vercel}
-                className={cn(
-                  buttonVariants({ variant: "outline", size: "sm" }))}>
-                <Icons.bone className="mr-2 h-3 w-3" />
-                Home
-              </Link>
-
-              <Link
-                href="/links"
-                className={cn(
-                  buttonVariants({ variant: "outline", size: "sm" }))}>
-                Links
-              </Link>
                 
               <Link
                 href="/charts"

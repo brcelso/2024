@@ -81,13 +81,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>
-                
-              <Link
-                href="/"
-                className={cn(
-                  buttonVariants({ variant: "outline", size: "sm" }))}>
-                Home
-              </Link>
 
               <Link
                 href="/charts"

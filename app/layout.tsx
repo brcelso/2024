@@ -90,10 +90,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
 
               <Link
-                href="/calendar"
+                href="https://docs.google.com/spreadsheets/d/1vkqc4wkgaXAZrZs_kWy8P8tMX8GullMy6hdWoKOt0pU/gviz/tq?tqx=out:html&tq&gid=1653202204"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
-                Calendar
+                Ibovespa
               </Link>
 
               <Link

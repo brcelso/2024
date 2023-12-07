@@ -121,6 +121,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   buttonVariants({ variant: "outline", size: "sm" }))}>
                 Links
               </Link>
+
+              <Link
+                href="/fibo"
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "sm" }))}>
+                Fibo
+              </Link>
                   
                 </nav>
               </div>

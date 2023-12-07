@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.App {
+  text-align: center;
+  margin: 50px;
+}
+
+.table-container {
+  margin: auto;
+}
+
+/* Use Tailwind CSS classes for styling the table */
+table {
+  @apply w-4/5 m-auto mt-8 border-collapse rounded-md; /* Apply rounded corners to the table */
+}
+
+th, td {
+  @apply border p-4 text-center;
+}
+
+th {
+  @apply bg-gradient-to-r from-blue-700 to-blue-900 text-white rounded-t-md; /* Apply rounded corners to the top of the header */
+}
+
+/* Alternate row color for better readability */
+tr:nth-child(even) {
+  @apply bg-gradient-to-r from-blue-300 to-blue-500; /* Gradient background for even rows */
+}
+
+tr:nth-child(odd) {
+  @apply bg-gradient-to-r from-blue-500 to-blue-700; /* Gradient background for odd rows */
+}
+

@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <h1 className="text-3xl font-bold mb-4">Fibonacci Sequence</h1>
       <div className="table-container">
-        <table className="w-4/5 m-auto mt-8 border-collapse rounded-full">
+        <table className="rounded-full">
           <thead>
             <tr>
               <th className="border p-4 bg-gradient-to-r from-blue-700 to-blue-900 text-white rounded-t-md">Index</th>

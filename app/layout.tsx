@@ -100,9 +100,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
 
               <Link
-                target="_blank"
-                rel="noreferrer"
-                href={siteConfig.links.ibovespa}
+                href="/ibov"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
                 Ibovespa

@@ -46,18 +46,27 @@ function App() {
     }
   };
 
+  // Function to handle slider input and display result
+  const handleSliderChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const sliderValue = parseInt(e.target.value, 10);
+    setUserIndex(sliderValue);
+  };
+
   return (
     <div className="App">
       <h1 className="text-3xl font-bold mb-4">Fibonacci Sequence</h1>
 
       <div className="flex justify-center mt-4">
-        <label className="mr-2">Enter Index:</label>
+        <label className="mr-2">Select Index:</label>
         <input
-          type="number"
+          type="range"
+          min="0"
+          max="99"
           value={userIndex !== null ? userIndex : ''}
-          onChange={handleInputChange}
+          onChange={handleSliderChange}
           className="p-2 border"
         />
+        <span className="ml-2">{userIndex}</span>
       </div>
 
       {userIndex !== null && (
@@ -65,14 +74,14 @@ function App() {
           <table className="w-4/5 m-auto mt-8 border-collapse rounded-md">
             <thead>
               <tr>
-                <th className="border p-4 bg-gradient-to-r from-blue-700 to-blue-900 text-white rounded-t-md">Index</th>
-                <th className="border p-4 bg-gradient-to-r from-blue-700 to-blue-900 text-white rounded-t-md">Number</th>
+                <th className="border p-2 bg-sea-aqua text-white rounded-t-md">Index</th>
+                <th className="border p-2 bg-sea-aqua text-white rounded-t-md">Number</th>
               </tr>
             </thead>
             <tbody>
-              <tr className="bg-blue-200">
-                <td className="border p-4 text-center">{userIndex}</td>
-                <td className="border p-4 text-center">{fibonacciSequence[userIndex]}</td>
+              <tr className="bg-sea-aqua-light">
+                <td className="border p-2 text-center">{userIndex}</td>
+                <td className="border p-2 text-center">{fibonacciSequence[userIndex]}</td>
               </tr>
             </tbody>
           </table>
@@ -83,6 +92,8 @@ function App() {
 }
 
 export default App;
+
+
 
 
 

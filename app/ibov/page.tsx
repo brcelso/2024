@@ -16,7 +16,7 @@ const GoogleSheetsPage: React.FC = () => {
       try {
         const sheetId = '1vkqc4wkgaXAZrZs_kWy8P8tMX8GullMy6hdWoKOt0pU';
         const sheetName = 'ibov_data';
-        const apiKey = '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'; // Replace with your actual API key
+        const apiKey = 'AIzaSyDHtaDiVGnHN-PGkTiz624BZBwYBO1dV0s'; // Replace with your actual API key
 
         const response = await fetch(
           `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${sheetName}?key=${apiKey}`

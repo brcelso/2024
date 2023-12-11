@@ -1,11 +1,11 @@
 /* App.module.css */
-.circularImageWrapper {
-    overflow: hidden;
-    border-radius: 50%;
-  }
+.roundedImageWrapper {
+  overflow: hidden;
+  border-radius: 15px; /* Adjust the border-radius to control the level of rounding */
+}
   
   .circularImage {
     width: 100%;
-    height: auto;
+    height: 377px;
   }
   

@@ -56,15 +56,17 @@ function App() {
   
   return (
     <div className="App">
-      <div className="flex justify-center mt-4 ">
-      <Image 
-      src="/leo.jpg" // Replace with the correct path
-      alt="Example"
-      width={300} // Set the width of the image
-      height={150} // Set the height of the image
-      className="mt-4"
-      />
+      <div className="flex justify-center mt-4">
+      <div className={styles.roundedImageWrapper}>
+        <Image
+          src="/leo.jpg" // Replace with the correct path
+          alt="Example"
+          width={500} // Set the width of the image
+          height={300} // Set the height of the image
+          className={`${styles.circularImage}`}
+        />
       </div>
+    </div>
 
       <h1 className="text-3xl font-bold mb-4">Fibonacci Sequence</h1>
 

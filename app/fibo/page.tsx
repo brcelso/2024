@@ -6,6 +6,8 @@ import './App.css';
 import styles from './App.module.css'; // Create a separate CSS module for styling
 import Image from 'next/image';
 import Calculator from '../calc/calculator'
+import TradingViewWidget from "@/app/charts/components/tradingview"
+
 
 // Use the "use client" pragma to mark the component as a client entry
 // This is necessary because useState is not available in server components
@@ -101,6 +103,10 @@ function App() {
         </div>
       )}
         <Calculator></Calculator>
+        <div className="overflow-hidden rounded-lg container flex max-w-[64rem] flex-col items-center gap-4 text-center">
+      
+          <TradingViewWidget />
+          </div>
     </div>
 
   );

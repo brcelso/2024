@@ -1,0 +1,11 @@
+/* App.module.css */
+.circularImageWrapper {
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circularImage {
+    width: 100%;
+    height: auto;
+  }
+  

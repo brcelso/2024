@@ -3,6 +3,8 @@
 // ./app/page.tsx
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import styles from './App.module.css'; // Create a separate CSS module for styling
+import Image from 'next/image';
 
 // Use the "use client" pragma to mark the component as a client entry
 // This is necessary because useState is not available in server components
@@ -51,9 +53,19 @@ function App() {
     const sliderValue = parseInt(e.target.value, 10);
     setUserIndex(sliderValue);
   };
-
+  
   return (
     <div className="App">
+      <div className="flex justify-center mt-4 ">
+      <Image 
+      src="/leo.jpg" // Replace with the correct path
+      alt="Example"
+      width={300} // Set the width of the image
+      height={150} // Set the height of the image
+      className="mt-4"
+      />
+      </div>
+
       <h1 className="text-3xl font-bold mb-4">Fibonacci Sequence</h1>
 
       <div className="flex justify-center mt-4">
@@ -85,8 +97,10 @@ function App() {
               </tr>
             </tbody>
           </table>
+          
         </div>
       )}
+    
     </div>
   );
 }

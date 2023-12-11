@@ -2,6 +2,7 @@ export const siteConfig = {
     name: "brcelso",
     url: "https://celso.vercel.app",
     ogImage: "https://github.com/brcelso.png",
+    fiboImage: "./workspaces/2024/leo.jpg",
     description:
       "welcome to the New Age.",
     links: {

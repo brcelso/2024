@@ -93,6 +93,13 @@ export default function RootLayout({ children }: RootLayoutProps) {
               </Link>
 
               <Link
+                href="/fibo"
+                className={cn(
+                  buttonVariants({ variant: "outline", size: "sm" }))}>
+                Fibo
+              </Link>
+
+              <Link
                 href="/charts"
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
@@ -118,13 +125,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 className={cn(
                   buttonVariants({ variant: "outline", size: "sm" }))}>
                 Links
-              </Link>
-
-              <Link
-                href="/fibo"
-                className={cn(
-                  buttonVariants({ variant: "outline", size: "sm" }))}>
-                Fibo
               </Link>
                   
                 </nav>

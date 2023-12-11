@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import styles from './App.module.css'; // Create a separate CSS module for styling
 import Image from 'next/image';
+import Calculator from '../calc/calculator'
 
 // Use the "use client" pragma to mark the component as a client entry
 // This is necessary because useState is not available in server components
@@ -68,8 +69,6 @@ function App() {
       </div>
     </div>
 
-      <h1 className="text-3xl font-bold mb-4">Fibonacci Sequence</h1>
-
       <div className="flex justify-center mt-4">
         <label className="mr-2">Select Index:</label>
         <input
@@ -99,11 +98,11 @@ function App() {
               </tr>
             </tbody>
           </table>
-          
         </div>
       )}
-    
+        <Calculator></Calculator>
     </div>
+
   );
 }
 
